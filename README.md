@@ -12,7 +12,14 @@ Two approaches:
 
 This allows you to import the notebook directly from GitHub, Google Drive, or your computer.
 
-- Clone the repository to your Google Drive on your computer and the go to https://drive.google.com/. Navigate to the directory where you have cloned the repository and you should be able to see the the notebooks. If you have enabled Colaboratory with Google Drive, you should be able to right click on the notebook and open it in Colaboratory.
+- Clone the repository to your Google Drive on your computer and then go to https://drive.google.com/. Navigate to the directory where you have cloned the repository and you should be able to see the the notebooks. If you have enabled Colaboratory with Google Drive, you should be able to right click on the notebook and open it in Colaboratory.
+
+To enable Colaboratory with Google Drive, go to the Google Workspace Marketplace and install the plugin
+
+![GDrive Marketplace](media/gdrive_marketplace.png)
+
+![Colab plugin](media/colab_plugin.png)
+
 
 ![Colab via Google Drive](media/colab_gdrive.png)
 
