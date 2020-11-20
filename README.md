@@ -12,6 +12,8 @@ Two approaches:
 
 This allows you to import the notebook directly from GitHub, Google Drive, or your computer.
 
+## Using Google Drive
+
 - Clone the repository to your Google Drive on your computer and then go to https://drive.google.com/. Navigate to the directory where you have cloned the repository and you should be able to see the the notebooks. If you have enabled Colaboratory with Google Drive, you should be able to right click on the notebook and open it in Colaboratory.
 
 To enable Colaboratory with Google Drive, go to the Google Workspace Marketplace and install the plugin
@@ -110,3 +112,7 @@ There is one tricky issue related to billing that is addressed in the Ibis docum
 - With that connection, create a database object pointing to the database outside of your billable project.
 
 The `ic1.py` script demonstrates how to do this. A similar script is provided for testing access to MIMIC-IV (`mic1.py`).
+
+## Important Note
+
+If you plan on pushing notebooks to this repository, please install `nbstripout` so we do not end up with MIMIC-IV data in the repository.
