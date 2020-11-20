@@ -1,0 +1,18 @@
+name: mimic_google
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pandas
+  - keras
+  - scikit-learn
+  - pip
+  - seaborn
+  - jupyterlab
+  - holoviews
+  - hvplot
+  - pip:
+    - plaidml
+    - google-cloud-storage
+    - google-auth
+    - ibis-framework[bigquery]==1.4.0
