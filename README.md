@@ -4,7 +4,9 @@
 
 This repository contains some Jupyter notebooks for exploring MIMIC-IV using Google's BigQuery. This assumes you have already been granted access to MIMIC via Physionet, that you have a Google account, and you have enabled Google Colaboratory with Google Drive.
 
-Two approaches:
+### [Enable Colaboratory and Big Query](https://colab.research.google.com/notebooks/bigquery.ipynb)
+
+### Two approaches:
 
 - Go straight to https://colab.research.google.com/. You should be greeted by a web page looking something like this:
 
