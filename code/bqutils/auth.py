@@ -1,9 +1,10 @@
 import google.auth
 
 
-def get_gcreds():
-   return google.auth.default(
-          scopes=["https://www.googleapis.com/auth/bigquery"]
-    )
+def get_gcreds(scopes = None):
+    if scopes == None:
+        scopes = ["https://www.googleapis.com/auth/bigquery"]
+    return google.auth.default(
+          scopes = scopes )
 
 

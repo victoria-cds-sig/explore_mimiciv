@@ -6,6 +6,10 @@ dependencies:
   - pandas
   - keras
   - scikit-learn
+  - scikit-image
+  - pydicom
+  - itkwidgets
+  - spacy=2.3
   - pip
   - seaborn
   - jupyterlab
@@ -16,3 +20,5 @@ dependencies:
     - google-cloud-storage
     - google-auth
     - ibis-framework[bigquery]==1.4.0
+    - medspacy
+    - itables
