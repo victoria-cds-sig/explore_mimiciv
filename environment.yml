@@ -2,23 +2,20 @@ name: mimic_google
 channels:
   - conda-forge
 dependencies:
-  - python=3.7
+  - python=3.11
   - pandas
   - keras
   - scikit-learn
-  - scikit-image
-  - pydicom
-  - itkwidgets
-  - spacy=2.3
+  - spacy
   - pip
   - seaborn
   - jupyterlab
   - holoviews
   - hvplot
+  - cython
   - pip:
-    - plaidml
     - google-cloud-storage
     - google-auth
-    - ibis-framework[bigquery]==1.4.0
+    - ibis-framework[bigquery]
     - medspacy
     - itables
