@@ -13,9 +13,12 @@ dependencies:
   - holoviews
   - hvplot
   - cython
+  - pandas-gbq 
+  - ipywidgets
   - pip:
     - google-cloud-storage
     - google-auth
+    - google-cloud-bigquery
     - ibis-framework[bigquery]
     - medspacy
     - itables
